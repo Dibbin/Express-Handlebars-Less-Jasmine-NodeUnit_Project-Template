@@ -41,6 +41,9 @@ Browser unit testing is implemented by Karma and Jasmine. Server unit testing is
 ##Commands
 These commands are for Windows, they will need to be modified for Linux/Mac.
 
+####Install
+    npm install
+
 ####Run in production mode
     set NODE_ENV=production && set PORT=80 && node bin\www
 PORT is optional, defaults to 3000:

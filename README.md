@@ -51,7 +51,7 @@ PORT is optional, defaults to 3000:
     set NODE_ENV=production && node bin\www
 
 ####Run in development mode on port 3000
-    node bin\www
+    set NODE_ENV=development && node bin\www
 
 ####Run Jasmine tests
     node node_modules\karma\bin\karma start
